@@ -14,7 +14,7 @@ echo "test"
 }
 stage('build'){
 steps{
-bat 'mvn -f  SampleDevops/pom.xml clean install'
+bat 'mvn -f  saba989/SampleDevops/pom.xml clean install'
 }
 }
 }
