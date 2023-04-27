@@ -5,10 +5,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/home")
 public class DevopsController {
 
-	@GetMapping
+	@GetMapping("/home")
 	public String myhome() {
 		return "this is home";
 	}
